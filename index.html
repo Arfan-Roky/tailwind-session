@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <!-- TAILWIND CSS LINK -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="w-full h-20 flex justify-center absolute bg-white">
+        <nav class="w-4/5 h-full flex justify-between items-center">
+            <h1 class="text-black uppercase text-xl font-bold">Jhaka-Naka Production</h1>
+            <ul class="gap-x-5 text-xl  hidden md:flex">
+                <li><a class="text-black cursor-pointer" href="#home">Home</a></li>
+                <li><a class="text-black cursor-pointer" href="#about">About</a></li>
+                <li><a class="text-black cursor-pointer" href="#movies">Movies</a></li>
+                <li><a class="text-black cursor-pointer" href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Main Area -->
+    <main>
+
+        <section class="h-screen bg-[url('banner.jpg')] bg-cover flex items-center bg-opacity-50" id="home">
+
+            <div class="ml-20 w-full md:w-2/4 text-white">
+                <p>Movie Production Studio</p>
+                <h1 class="text-4xl md:text-7xl font-bold">Films Made To </h1>
+                <h1 class="text-yellow-400 text-4xl md:text-7xl font-bold">Prefrection</h1>
+                <p class="mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum veniam aliquid alias quo? Officia, id!</p>
+                <button class="border-y-sky-100 border-2 px-5 py-2 text-xl font-semibold mt-10 hover:text-black hover:bg-yellow-300 transition">Discover More</button>
+            </div>
+        </section>
+
+        <!-- About Us -->
+        <section class="p-10" id="about">
+            <div class="border-2 border-black p-10 lg:flex gap-x-10">
+
+                <div class="w-full lg:w-2/4 h-[300px] md:h-[500px] bg-[url('about.jpg')] bg-cover bg-center">
+                    <div class="">
+                        <h1 class="text-4xl font-semibold">23 years of expreience</h1>
+                    </div>
+
+
+                </div>
+
+                <div class="w-full lg:w-2/4 h-full">
+                    <p>About Us</p>
+                   <h1 class="text-xl md:text-5xl font-bold uppercase my-4">Filming expreience  <br> just got better</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quasi adipisci sed quo dicta aliquam reprehenderit a, expedita ducimus enim ad doloribus ex inventore non veniam iure cumque praesentium quis.</p>
+                    <button class="border-black border-2 px-5 py-2 text-xl font-semibold mt-10 hover:text-black hover:bg-yellow-300 transition">Discover More</button>
+                </div>
+
+            </div>
+
+            <!-- item list -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-x-20">
+                <div  class="border-t-4 border-black w-full mt-10 mb-10 lg:mb-0">
+                    <h1 class="text-5xl mt-5">our vision</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate impedit molestias sit doloribus eos quidem eaque laboriosam voluptatum blanditiis dolores.</p>
+                </div>
+
+                <div  class="border-t-4 border-black w-full mt-10 mb-10 lg:mb-0">
+                    <h1 class="text-5xl mt-5">our Mission</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate impedit molestias sit doloribus eos quidem eaque laboriosam voluptatum blanditiis dolores.</p>
+                </div>
+
+                <div  class="border-t-4 border-black w-full mt-10 mb-10 lg:mb-0">
+                    <h1 class="text-5xl mt-5">our Motto</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate impedit molestias sit doloribus eos quidem eaque laboriosam voluptatum blanditiis dolores.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Movies -->
+        <section class="bg-gray-500 h-full w-full p-10" id="movies">
+            <!-- movies header -->
+           <div  class="text-white">
+               <p class="text-white">Our Movies</p>
+               <div class="md:flex justify-between items-center">
+                   <h1 class=" text-4xl md:text-6xl font-bold uppercase text-white">Movie Collection</h1>
+                   <button class="border-black border-2 px-5 py-2 text-xl font-semibold text-white hover:text-black hover:border-yellow-300 transition-all mt-10 lg:mt-0">See More Movies</button>
+               </div>
+           </div>
+
+           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-y-0 gap-y-5">
+
+           
+               <div class="border-2 border-white w-full h-[280px] lg:h-[350px] md:h-[500px] mt-10 ">
+
+                <a href="https://github.com/">
+                <div class=" group bg-[url(./images/1.png)] w-full h-full bg-cover bg-center flex justify-center items-center relative top-0 left-0  cursor-pointer">
+                   
+
+                    <div class="h-ful w-full hidden bg-black opacity-75 group-hover:block  absolute top-0 left-0 right-0 bottom-0">
+
+                    </div>
+
+                    <h1 class="text-3xl text-white font-semibold hidden z-10 group-hover:block ">hello</h1>
+
+                </div> 
+            </a>
+               </div>
+
+           
+               <div class="border-2 border-white w-full h-[280px] lg:h-[350px] md:h-[500px] mt-10 ">
+
+                <a href="https://github.com/">
+                <div class=" group bg-[url(./images/1.png)] w-full h-full bg-cover bg-center flex justify-center items-center relative  cursor-pointer">
+                   
+
+                    <div class="h-ful w-full hidden bg-black opacity-75 group-hover:block  absolute top-0 left-0 right-0 bottom-0">
+
+                    </div>
+
+                    <h1 class="text-3xl text-white font-semibold hidden z-10 group-hover:block ">hello</h1>
+
+                </div> 
+            </a>
+               </div>
+
+           
+               <div class="border-2 border-white w-full h-[280px] lg:h-[350px] md:h-[500px] mt-10 ">
+
+                <a href="https://github.com/">
+                <div class=" group bg-[url(./images/1.png)] w-full h-full bg-cover bg-center flex justify-center items-center  relative  cursor-pointer">
+                   
+
+                    <div class="h-ful w-full hidden bg-black opacity-75 group-hover:block  absolute top-0 left-0 right-0 bottom-0">
+
+                    </div>
+
+                    <h1 class="text-3xl text-white font-semibold hidden z-10 group-hover:block ">hello</h1>
+
+                </div> 
+            </a>
+               </div>
+
+           
+               <div class="border-2 border-white w-full h-[280px] lg:h-[350px] md:h-[500px] mt-10 ">
+
+                <a href="https://github.com/">
+                <div class=" group bg-[url(./images/1.png)] w-full h-full bg-cover bg-center flex justify-center items-center  relative  cursor-pointer">
+                   
+
+                    <div class="h-ful w-full hidden bg-black opacity-75 group-hover:block  absolute top-0 left-0 right-0 bottom-0">
+
+                    </div>
+
+                    <h1 class="text-3xl text-white font-semibold hidden z-10 group-hover:block ">hello</h1>
+
+                </div> 
+            </a>
+               </div>
+
+           
+          
+           </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
